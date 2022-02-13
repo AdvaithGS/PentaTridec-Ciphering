@@ -1,6 +1,6 @@
 s = input()
-lst = '0123456789abcdefghijklmnopqrstuvwxyz'
+lst = '0123456789abcdefghijklmnopqrstuvwxyz '
 ans = 0
 for i in range(len(s)):
-    ans += lst.index(s[i])*(35**i)
+    ans += lst.index(s[i])*(37**i)
 print(ans)
