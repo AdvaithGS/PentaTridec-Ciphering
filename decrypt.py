@@ -1,4 +1,4 @@
-s = int(input())
+s = int(input('Enter encrypted text: '))
 i = 0
 while 37**i < s:
     i += 1
